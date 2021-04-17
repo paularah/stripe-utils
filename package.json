@@ -1,0 +1,23 @@
+{
+  "name": "stripe-utils",
+  "version": "1.0.0",
+  "description": "utility functions for processing payments with stripe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paularah/stripe-utils.git"
+  },
+  "author": "Paul Arah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paularah/stripe-utils/issues"
+  },
+  "homepage": "https://github.com/paularah/stripe-utils#readme",
+  "dependencies": {
+    "@types/stripe": "^8.0.417",
+    "stripe": "^8.144.0"
+  }
+}
